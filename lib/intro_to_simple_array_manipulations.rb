@@ -19,3 +19,9 @@ end
 def using_shift(array)
   return array.shift
 end
+
+def shift_with_args(array)
+  first_shifted = array.shift
+  second_shifted = array.shift
+  return [second_shifted, first_shifted]
+end
