@@ -15,3 +15,7 @@ def pop_with_args(array)
   second_removed = array.pop
   return [second_removed, first_removed]
 end
+
+def using_shift(array)
+  return array.shift
+end
